@@ -44,7 +44,7 @@ include ("container.php");
                     </div>
                     <div class="col-9 align-self-center fh5co_contact_us_no_icon_difh5co_hover_2">
                         <span class="c_g d-block">Have any questions?</span>
-                        <span class="d-block c_g fh5co_contact_us_no_text">luuthaituan08091999@gmail.com</span>
+                        <span class="d-block c_g fh5co_contact_us_no_text">thaituanhp89@hotmail.com</span>
                     </div>
                     <div class="clearfix"></div>
                 </div>

@@ -9,6 +9,7 @@ spl_autoload_register(function ($class){
         require_once $file;
     }
 });
+
 use Core\Router;
 $router= new Router();
 $router->register('GET', '/', ['homeController', 'index']);

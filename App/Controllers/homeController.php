@@ -24,21 +24,36 @@ class homeController extends Controller {
         $subject = $_POST['subject'];
         $message = $_POST['message'];
 
-        $newMail = new PHPMailer();
-        $newMail->IsSMTP();
-        $newMail->Mailer= "smtp";
-        $newMail->SMTPDebug  = 1;
-        $newMail->SMTPAuth   = TRUE;
-        $newMail->SMTPSecure = "tls";
-        $newMail->Port       = 587;
-        $newMail->Host       = "smtp.gmail.com";
-        $newMail->Username   = "luuthaituan08091999@gmail.com";
-        $newMail->Password   = "ltuan89T@.com";
-        $newMail->isHTML(true);
+        $newMail = new PHPMailer(true);
+        try{
+            $newMail->IsSMTP();
+            $newMail->Mailer= "smtp";
+            $newMail->SMTPDebug  = 1;
+            $newMail->SMTPAuth   = TRUE;
+            $newMail->SMTPSecure = "tls";
+            $newMail->Port       = 587;
+            $newMail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+            $newMail->Host       = "smtp.gmail.com";
+            $newMail->Username   = "luuthaituan08091999@gmail.com";
+            $newMail->Password   = "ltuan89T@.com";
+            $newMail->setFrom($email, $yourName);
+            $newMail->addAddress('thaituanhp89@hotmail.com', 'Luu Thai Tuan');
+            $newMail->isHTML(true);
+            $newMail->Subject = "Email from $yourName, $email";
+            //content
+            $mailContent = "<h1>Subject: $subject</h1>";
+            $mailContent .= "Message: $message";
+            $newMail->Body = $mailContent;
 
-
-
-
+            //send email
+            $newMail->send();
+            echo '<script>
+            window.alert("Sent successfully");
+            window.location.href = "/contact";
+            </script>';
+        } catch (Exception $e) {
+            echo "<script>window.alert('Message could not be sent. Mailer Error: ')</script> {$newMail->ErrorInfo}";
+        }
     }
 
     public function showSingle($id) {
