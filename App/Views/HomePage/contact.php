@@ -72,20 +72,20 @@ include ("container.php");
         </div>
         <div class="row">
             <div class="col-12 col-md-6">
-                <form class="row" id="fh5co_contact_form">
+                <form class="row" id="fh5co_contact_form" method="post" action="/contact">
                     <div class="col-12 py-3">
-                        <input type="text" class="form-control fh5co_contact_text_box" placeholder="Enter Your Name" />
+                        <input type="text" class="form-control fh5co_contact_text_box" placeholder="Enter Your Name" name="yourName" />
                     </div>
                     <div class="col-6 py-3">
-                        <input type="text" class="form-control fh5co_contact_text_box" placeholder="E-mail" />
+                        <input type="text" class="form-control fh5co_contact_text_box" placeholder="E-mail" name="email" />
                     </div>
                     <div class="col-6 py-3">
-                        <input type="text" class="form-control fh5co_contact_text_box" placeholder="Subject" />
+                        <input type="text" class="form-control fh5co_contact_text_box" placeholder="Subject" name="subject"/>
                     </div>
                     <div class="col-12 py-3">
-                        <textarea class="form-control fh5co_contacts_message" placeholder="Message"></textarea>
+                        <textarea class="form-control fh5co_contacts_message" placeholder="Message" name="message"></textarea>
                     </div>
-                    <div class="col-12 py-3 text-center"> <a href="#" class="btn contact_btn">Send Message</a> </div>
+                    <div class="col-12 py-3 text-center"> <button href="/contact" class="btn contact_btn" type="submit" name="submit">Send Message</button> </div>
                 </form>
             </div>
             <div class="col-12 col-md-6 align-self-center">

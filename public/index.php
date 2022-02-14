@@ -14,6 +14,7 @@ $router= new Router();
 $router->register('GET', '/', ['homeController', 'index']);
 $router->register('GET', '/{id}', ['homeController', 'showSingle']);
 $router->register('GET', '/contact', ['homeController', 'contactUs']);
+$router->register('POST', '/contact', ['homeController', 'sendEmail']);
 $router->register('GET', '/login', ['logInController', 'showLogin']);
 $router->register('POST', '/login', ['logInController', 'login']);
 $router->register('GET', '/dashboard', ['mainController', 'getAllPosts']);
