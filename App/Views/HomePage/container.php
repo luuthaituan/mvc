@@ -4,9 +4,8 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-3 fh5co_padding_menu">
-                <img src="../homeCSS/images/logo.png" alt="img" class="fh5co_logo_width"/>
+                <a href="/"><img src="../homeCSS/images/logo.png" alt="img" class="fh5co_logo_width"></a>
             </div>
-
         </div>
     </div>
 </div>

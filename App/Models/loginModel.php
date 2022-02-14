@@ -13,7 +13,10 @@ class loginModel extends Model {
             $_SESSION['username'] = $username;
             header('Location: /dashboard');
         } else{
-            echo '<script>window.alert("Wrong username or password")</script>';
+            echo '<script>
+            window.alert("Wrong username or password");
+            window.location.href = "/login";
+            </script>';
         }
     }
 }

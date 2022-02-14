@@ -34,7 +34,7 @@ include ("container.php");
                 <div class="row pb-4">
                     <div class="col-md-5">
                         <div class="fh5co_hover_news_img">
-                            <div class="fh5co_news_img"><img src="data:image/x-icon;base64,<?= $image ?>">
+                            <div class="fh5co_news_img"><img src="data:image/jpeg;base64,<?= $image ?>">
                             <?php
                             $url = $value['image'];
                             $image = base64_encode(file_get_contents($url));

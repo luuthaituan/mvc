@@ -19,10 +19,10 @@ class homeController extends Controller {
     }
 
     public function sendEmail(){
-        $yourName = $_POST['yourName'];
-        $email = $_POST['email'];
-        $subject = $_POST['subject'];
-        $message = $_POST['message'];
+        $yourName = htmlspecialchars($_POST['yourName']);
+        $email = htmlspecialchars($_POST['email']);
+        $subject = htmlspecialchars($_POST['subject']);
+        $message = htmlspecialchars($_POST['message']);
 
         $newMail = new PHPMailer(true);
         try{
@@ -39,20 +39,24 @@ class homeController extends Controller {
             $newMail->setFrom($email, $yourName);
             $newMail->addAddress('thaituanhp89@hotmail.com', 'Luu Thai Tuan');
             $newMail->isHTML(true);
-            $newMail->Subject = "Email from $yourName, $email";
+            $newMail->Subject = "Email from: $email, $yourName";
+
             //content
             $mailContent = "<h1>Subject: $subject</h1>";
-            $mailContent .= "Message: $message";
+            $mailContent .= "<p>Message: $message</p>";
             $newMail->Body = $mailContent;
 
             //send email
             $newMail->send();
-            echo '<script>
-            window.alert("Sent successfully");
+            echo ('<script language="JavaScript">
+            window.alert("Thank you for your feedback");
+            window.location.href = "/contact";
+            </script>');
+        } catch (Exception $e) {
+            echo '<script language="JavaScript">
+            window.alert("Message could not be sent");
             window.location.href = "/contact";
             </script>';
-        } catch (Exception $e) {
-            echo "<script>window.alert('Message could not be sent. Mailer Error: ')</script> {$newMail->ErrorInfo}";
         }
     }
 

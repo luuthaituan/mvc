@@ -22,11 +22,11 @@
                             <div class="card-body">
                                 <form method='post' action='/login'>
                                     <div class="form-floating mb-3">
-                                        <input class="form-control" id="inputEmail" type="text" placeholder="username" name="username"/>
+                                        <input class="form-control" id="inputEmail" type="text" placeholder="username" name="username" required/>
                                         <label for="inputEmail">Username</label>
                                     </div>
                                     <div class="form-floating mb-3">
-                                        <input class="form-control" id="inputPassword" type="password" placeholder="Password" name="password" />
+                                        <input class="form-control" id="inputPassword" type="password" placeholder="Password" name="password" required />
                                         <label for="inputPassword">Password</label>
                                     </div>
                                     <div class="d-flex align-items-center justify-content-between mt-4 mb-0">

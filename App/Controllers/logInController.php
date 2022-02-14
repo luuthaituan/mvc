@@ -14,7 +14,10 @@ class logInController extends Controller {
 
     public function logout(){
         unset($_SESSION['username']);
-        header('Location: /login');
+        echo '<script>
+        window.alert("Logout Successfully");
+        window.location.href = "/login";
+        </script>';
     }
 
 }

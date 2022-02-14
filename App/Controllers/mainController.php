@@ -23,7 +23,9 @@ class mainController extends Controller {
     public function deletePost($id){
         $main = new mainModel();
         $main->deleteThePost($id);
-        echo '<script>window.alert("Post deleted")</script>';
-        header("Location: /dashboard");
+        echo '<script>
+        window.alert("Post deleted");
+        window.location.href = "/dashboard";
+        </script>';
     }
 }

@@ -29,7 +29,7 @@ include ("navbar.php");
                             <div class="col-md-6">
                                 <div class="form-floating mb-3 mb-md-0">
                                     <a for="name">Post title</a>
-                                    <input class="form-control" id="inputFirstName" type="text" placeholder="Post title" name="name" />
+                                    <input class="form-control" id="inputFirstName" type="text" placeholder="Post title" name="name" required />
                                 </div>
                             </div>
                         </div>
@@ -38,7 +38,7 @@ include ("navbar.php");
                             <div class="col-md-6">
                                 <div class="form-floating mb-3 mb-md-0">
                                     <a for="summary">Summary</a>
-                                    <input class="form-control" id="inputFirstName" type="text" placeholder="Summary" name="summary"/>
+                                    <input class="form-control" id="inputFirstName" type="text" placeholder="Summary" name="summary" required/>
                                 </div>
                             </div>
                         </div>
@@ -47,7 +47,7 @@ include ("navbar.php");
                             <div class="col-md-6">
                                 <div class="form-floating mb-3 mb-md-0">
                                     <a for="image">Image link</a>
-                                    <input class="form-control" id="inputFirstName" type="text" placeholder="Image link" name="link" />
+                                    <input class="form-control" id="inputFirstName" type="text" placeholder="Image link" name="link" required />
                                 </div>
                             </div>
                         </div>
@@ -56,7 +56,7 @@ include ("navbar.php");
                             <div class="col-md-6">
                                 <div class="form-floating mb-3 mb-md-0">
                                     <a for="content">Post content</a>
-                                    <input class="form-control" id="inputFirstName" type="text" placeholder="Post content" name="content" />
+                                    <input class="form-control" id="inputFirstName" type="text" placeholder="Post content" name="content" required />
                                 </div>
                             </div>
                         </div>

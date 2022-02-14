@@ -7,10 +7,10 @@ class mainModel extends Model {
     }
 
     public function addPost(){
-        $title = $_POST['name'];
-        $summary = $_POST['summary'];
-        $link = $_POST['link'];
-        $content = $_POST['content'];
+        $title = htmlspecialchars($_POST['name']);
+        $summary = htmlspecialchars($_POST['summary']);
+        $link = htmlspecialchars($_POST['link']);
+        $content = htmlspecialchars($_POST['content']);
         $insert = $this->conn->prepare("insert into posts set name = :title, summary = :summary, image = :link, content = :content");
         $insert->execute(array(
             ":title" => $title,
@@ -25,5 +25,9 @@ class mainModel extends Model {
         $query->execute(array(
             ":id" => $id
         ));
+    }
+
+    public function updateThePost($id){
+        echo "Hello";
     }
 }
