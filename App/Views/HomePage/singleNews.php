@@ -1,10 +1,16 @@
-<!DOCTYPE html>
-<html lang="en" class="no-js">
+<!doctype html>
+<html lang="en">
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>News Mock DEMO</title>
+    <title>
+        <?php
+        foreach ($posts as $value) {
+            echo $value['name'];
+        }
+        ?>
+    </title>
     <link href="../homeCSS/css/media_query.css" rel="stylesheet" type="text/css"/>
     <link href="../homeCSS/css/bootstrap.css" rel="stylesheet" type="text/css"/>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
@@ -23,48 +29,6 @@
 include ("container.php");
 ?>
 
-<div class="container-fluid pb-4 pt-4 paddding">
-    <div class="container paddding">
-        <div class="row mx-0">
-            <div class="col-md-8 animate-box" data-animate-effect="fadeInLeft">
-                <div>
-                    <div class="fh5co_heading fh5co_heading_border_bottom py-2 mb-4">News</div>
-                </div>
-                <?php foreach ($posts as $value) { ?>
-                <div class="row pb-4">
-                    <div class="col-md-5">
-                        <div class="fh5co_hover_news_img">
-                            <div class="fh5co_news_img"><img src="data:image/x-icon;base64,<?= $image ?>">
-                            <?php
-                            $url = $value['image'];
-                            $image = base64_encode(file_get_contents($url));
-                            ?>
-                            </div>
-                            <div></div>
-                        </div>
-                    </div>
-                    <div class="col-md-7 animate-box">
-                        <a href="/<?=$value['name'];?>" class="fh5co_magna py-2"><?= $value['name']; ?> </a>
-                        <div class="fh5co_consectetur">
-                            <?= $value['summary']; ?>
-                        </div>
-                    </div>
-                </div>
-                <?php } ?>
-            </div>
-        </div>
-        <div class="row mx-0 animate-box" data-animate-effect="fadeInUp">
-            <div class="col-12 text-center pb-4 pt-4">
-                <a href="#" class="btn_mange_pagging"><em class="fa fa-long-arrow-left"></em>&nbsp;&nbsp; Previous</a>
-                <a href="#" class="btn_pagging">1</a>
-                <a href="#" class="btn_pagging">2</a>
-                <a href="#" class="btn_pagging">3</a>
-                <a href="#" class="btn_pagging">...</a>
-                <a href="#" class="btn_mange_pagging">Next <em class="fa fa-long-arrow-right"></em>&nbsp;&nbsp; </a>
-            </div>
-        </div>
-    </div>
-</div>
 <?php
 include ("footer.php");
 ?>

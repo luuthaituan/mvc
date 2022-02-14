@@ -12,6 +12,7 @@ spl_autoload_register(function ($class){
 use Core\Router;
 $router= new Router();
 $router->register('GET', '/', ['homeController', 'index']);
+$router->register('GET', '/{name}', ['homeController', 'showSingle']);
 $router->register('GET', '/contact', ['homeController', 'contactUs']);
 $router->register('GET', '/login', ['logInController', 'showLogin']);
 $router->register('POST', '/login', ['logInController', 'login']);
@@ -20,6 +21,7 @@ $router->register('GET', '/addpost', ['mainController', 'showAddPost']);
 $router->register('POST', '/addpost', ['mainController', 'addNewPost']);
 $router->register('GET', '/dashboard/{id}', ['mainController', 'deletePost']);
 $router->register('GET', '/logout', ['logInController', 'logout']);
+
     try {
         $router->matchController();
     } catch (\Exception $exception) {

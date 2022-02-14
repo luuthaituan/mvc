@@ -12,4 +12,10 @@ class homeController extends Controller {
     public function contactUs(){
         return $this->loadView("../Views/HomePage/contact.php");
     }
+
+    public function showSingle($name) {
+        $getList = new homeModel();
+        $posts = $getList->getAll();
+        return $this->loadView("../Views/HomePage/singleNews.php", ["posts" => $posts]);
+    }
 }

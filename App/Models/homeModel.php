@@ -6,4 +6,5 @@ class homeModel extends Model {
         $posts = $this->selectAll("posts");
         return $posts;
     }
+
 }
