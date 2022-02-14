@@ -4,7 +4,7 @@ use App\Models\loginModel;
 
 class logInController extends Controller {
     public function showLogin() {
-        return $this->loadView('loginView.php');
+        return $this->loadView('../Views/AdminView/loginView.php');
     }
 
     public function login(){

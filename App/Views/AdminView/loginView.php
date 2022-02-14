@@ -33,6 +33,7 @@
                                         <button class="btn btn-primary" type="submit" name="submit">Login</button>
                                     </div>
                                 </form>
+                                <a href="/">Return to homepage</a>
                             </div>
                         </div>
                     </div>
