@@ -44,7 +44,7 @@ include ("container.php");
                         </div>
                     </div>
                     <div class="col-md-7 animate-box">
-                        <a href="/<?=$value['name'];?>" class="fh5co_magna py-2"><?= $value['name']; ?> </a>
+                        <a href="/<?=$value['id']?>" class="fh5co_magna py-2"><?= $value['name']; ?> </a>
                         <div class="fh5co_consectetur">
                             <?= $value['summary']; ?>
                         </div>

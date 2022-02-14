@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>
         <?php
-        foreach ($posts as $value) {
-            echo $value['name'];
-        }
+        echo $posts['name'];
         ?>
     </title>
     <link href="../homeCSS/css/media_query.css" rel="stylesheet" type="text/css"/>
@@ -28,7 +26,19 @@
 <?php
 include ("container.php");
 ?>
-
+<div id="fh5co-single-content" class="container-fluid pb-4 pt-4 paddding">
+    <div class="container paddding">
+        <div class="row mx-0">
+            <div class="col-md-8 animate-box" data-animate-effect="fadeInLeft">
+                <h1><?php echo $posts['name']; ?></h1>
+                <h3><?php echo $posts['summary']; ?></h3>
+                <p>
+                    <?php echo $posts['content']; ?>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
 <?php
 include ("footer.php");
 ?>
@@ -43,7 +53,10 @@ include ("footer.php");
         crossorigin="anonymous"></script>
 <!-- Waypoints -->
 <script src="../homeCSS/js/jquery.waypoints.min.js"></script>
+<!-- Parallax -->
+<script src="../homeCSS/js/jquery.stellar.min.js"></script>
 <!-- Main -->
 <script src="../homeCSS/js/main.js"></script>
+<script>if (!navigator.userAgent.match(/Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i)){$(window).stellar();}</script>
 </body>
 </html>

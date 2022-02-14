@@ -7,4 +7,8 @@ class homeModel extends Model {
         return $posts;
     }
 
+    public function getByID($id) {
+        $posts = $this->findPost("posts", $id);
+        return $posts;
+    }
 }

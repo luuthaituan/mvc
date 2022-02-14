@@ -13,9 +13,9 @@ class homeController extends Controller {
         return $this->loadView("../Views/HomePage/contact.php");
     }
 
-    public function showSingle($name) {
+    public function showSingle($id) {
         $getList = new homeModel();
-        $posts = $getList->getAll();
+        $posts = $getList->getByID($id);
         return $this->loadView("../Views/HomePage/singleNews.php", ["posts" => $posts]);
     }
 }
