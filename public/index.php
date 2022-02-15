@@ -21,7 +21,8 @@ $router->register('POST', '/login', ['logInController', 'login']);
 $router->register('GET', '/dashboard', ['mainController', 'getAllPosts']);
 $router->register('GET', '/addpost', ['mainController', 'showAddPost']);
 $router->register('POST', '/addpost', ['mainController', 'addNewPost']);
-$router->register('GET', '/dashboard/{id}', ['mainController', 'deletePost']);
+$router->register('GET', '/dashboard/delete/{id}', ['mainController', 'deletePost']);
+$router->register('GET', '/dashboard/update/{id}', ['mainController', 'showUpdatePost']);
 $router->register('GET', '/logout', ['logInController', 'logout']);
 
     try {

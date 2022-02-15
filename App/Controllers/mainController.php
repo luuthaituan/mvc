@@ -28,4 +28,8 @@ class mainController extends Controller {
         window.location.href = "/dashboard";
         </script>';
     }
+
+    public function showUpdatePost($id){
+        return $this->loadView("../Views/AdminView/updatePost.php");
+    }
 }

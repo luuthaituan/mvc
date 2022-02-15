@@ -15,7 +15,7 @@
                         <?php echo "Logging as: " . $_SESSION['username'];?>
                     </a></li>
                 <li><a class="dropdown-item" href="/logout">Logout</a></li>
-                <li><a class="dropdown-item" href="/">Home Page</a></li>
+                <li><a class="dropdown-item" href="/" target="_blank">Home Page</a></li>
             </ul>
         </li>
     </ul>

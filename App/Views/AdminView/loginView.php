@@ -29,11 +29,13 @@
                                         <input class="form-control" id="inputPassword" type="password" placeholder="Password" name="password" required />
                                         <label for="inputPassword">Password</label>
                                     </div>
-                                    <div class="d-flex align-items-center justify-content-between mt-4 mb-0">
-                                        <button class="btn btn-primary" type="submit" name="submit">Login</button>
+                                    <div class="mt-4 mb-0">
+                                        <div class="d-grid"><button class="btn btn-primary btn-block" type="submit" name="submit">Login</button></div>
                                     </div>
                                 </form>
-                                <a href="/">Return to homepage</a>
+                            </div>
+                            <div class="card-footer text-center py-3">
+                                <div class="small"><a href="/">Return to homepage</a></div>
                             </div>
                         </div>
                     </div>

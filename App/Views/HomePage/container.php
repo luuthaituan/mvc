@@ -25,7 +25,7 @@
                         <a class="nav-link" href="/contact">Contact <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="/login">Login for admin <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="/login" target="_blank">Login for admin <span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
             </div>

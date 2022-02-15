@@ -27,7 +27,9 @@ class mainModel extends Model {
         ));
     }
 
-    public function updateThePost($id){
-        echo "Hello";
+
+
+    public function updateDetailPost($id){
+        $query = $this->conn->prepare("update posts set name=:var_name where id=:var_id");
     }
 }

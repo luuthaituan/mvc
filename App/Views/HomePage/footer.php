@@ -5,7 +5,7 @@
             <div class="col-12 col-md-6 spdp_right py-4">
                 <a href="/" class="footer_last_part_menu">Home</a>
                 <a href="/contact" class="footer_last_part_menu">Contact</a>
-                <a href="/login" class="footer_last_part_menu">Login for admin</a></div>
+                <a href="/login" class="footer_last_part_menu" target="_blank">Login for admin</a></div>
         </div>
     </div>
 </div>
