@@ -6,6 +6,11 @@ class mainModel extends Model {
         return $posts;
     }
 
+    public function getDetailId($id){
+        $posts = $this->find("posts", $id);
+        return $posts;
+    }
+
     public function addPost(){
         $title = htmlspecialchars($_POST['name']);
         $summary = htmlspecialchars($_POST['summary']);

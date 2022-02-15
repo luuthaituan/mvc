@@ -26,6 +26,12 @@ $router->register('GET', '/dashboard/update/{id}', ['mainController', 'showUpdat
 $router->register('POST', '/dashboard/update/{id}', ['mainController', 'updateThePost']);
 $router->register('GET', '/logout', ['logInController', 'logout']);
 
+//api
+$router->register('GET', '/api/dashboard', ['API\mainController', 'getAllPosts']);
+$router->register('GET', '/api/dashboard/{id}', ['API\mainController', 'showDetailedPost']);
+$router->register('GET', '/api/dashboard/delete/{id}', ['API\mainController', 'deletePost']);
+
+
     try {
         $router->matchController();
     } catch (\Exception $exception) {

@@ -48,7 +48,7 @@ class homeController extends Controller {
 
             //send email
             $newMail->send();
-            echo ('<script language="JavaScript">
+            echo('<script language="JavaScript">
             window.alert("Thank you for your feedback");
             window.location.href = "/contact";
             </script>');
