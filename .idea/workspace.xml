@@ -1,33 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f35c7b2d-f333-4c07-9a5a-1b34c8154618" name="Changes" comment="test4">
-      <change afterPath="$PROJECT_DIR$/App/Views/AdminView/updatePost.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0b2f2fff6bf3854885721ff6d460c8c2803db928" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0e61f67641b441bb3ee38e903c594d99cafa14b4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/310db572f387bea6db8f3b33bca9f44129a306fe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/46dc5b4e2883f5d31e26b7c7f9157de1e23733ba" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48a1a1e144e0791e7f1921b957357600d6ed96fe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/f/4f0610adc490949189e4739499a915862d83fd14" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/0/505624e6697defe66669ebad6cc6664a367deb18" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/552320133a3ef6578ffdc91fe57970938c3f4fa4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/a/7ac6eceb87f3dc5da9d84df34258618e05075b9d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/2/b202dab0d5646a4fc9a74278c3eeaa59423ec522" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/8/b874e7c58084852462db4d58908292af3fe3c833" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/0/d0015b3dc13df78d3646e1e328ac437b29b8d430" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/ee4cc8e309460b733be2ea554f24d6e62ef06c4e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f3668999a99064acd87cae1fd4a7f3cb27c8bc12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/8/f8c9fb55f2dfd4b050b7fd18ee367e1e0b24cee7" beforeDir="false" />
+    <list default="true" id="f35c7b2d-f333-4c07-9a5a-1b34c8154618" name="Changes" comment="test778">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/d/8d2e88e489787070ca73d87b30f9184f22dda776" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/0/d017f901e831042d048b6ba854c97f3a23f75d68" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Controllers/mainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/mainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Models/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Models/Model.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Models/mainModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Models/mainModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Views/AdminView/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/AdminView/dashboard.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Views/AdminView/loginView.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/AdminView/loginView.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Views/AdminView/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/AdminView/navbar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Views/HomePage/container.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/HomePage/container.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Views/HomePage/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/HomePage/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Views/AdminView/updatePost.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/AdminView/updatePost.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +69,7 @@
       <workItem from="1644809289532" duration="22890000" />
       <workItem from="1644837759842" duration="3985000" />
       <workItem from="1644855147864" duration="7393000" />
-      <workItem from="1644885016793" duration="6492000" />
+      <workItem from="1644885016793" duration="10942000" />
     </task>
     <task id="LOCAL-00001" summary="test2">
       <created>1644825001668</created>
@@ -110,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644837210473</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test778">
+      <created>1644900790929</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1644900790929</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +121,7 @@
     <MESSAGE value="test2" />
     <MESSAGE value="test3" />
     <MESSAGE value="test4" />
-    <option name="LAST_COMMIT_MESSAGE" value="test4" />
+    <MESSAGE value="test778" />
+    <option name="LAST_COMMIT_MESSAGE" value="test778" />
   </component>
 </project>

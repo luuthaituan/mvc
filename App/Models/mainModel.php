@@ -30,6 +30,7 @@ class mainModel extends Model {
 
 
     public function updateDetailPost($id){
-        $query = $this->conn->prepare("update posts set name=:var_name where id=:var_id");
+        $posts = $this->findInfoUpdate("posts", $id);
+        return $posts;
     }
 }

@@ -30,6 +30,8 @@ class mainController extends Controller {
     }
 
     public function showUpdatePost($id){
-        return $this->loadView("../Views/AdminView/updatePost.php");
+        $info = new mainModel();
+        $posts = $info->updateDetailPost($id);
+        return $this->loadView("../Views/AdminView/updatePost.php", ["posts" => $posts]);
     }
 }

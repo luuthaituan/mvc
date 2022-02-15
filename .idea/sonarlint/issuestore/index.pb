@@ -43,9 +43,5 @@ C
 vendor/autoload.php,4\c\4ceef96aee837e6ae16da075ddeaba8aafebd371
 N
 App/Views/HomePage/contact.php,e\d\ed872aef2c74f8d49da0a5acdae7d5c870a60d56
-H
-App/Models/homeModel.php,8\d\8d2e88e489787070ca73d87b30f9184f22dda776
-D
-App/Models/Model.php,d\0\d017f901e831042d048b6ba854c97f3a23f75d68
 S
 #App/Controllers/logInController.php,5\c\5ca7cba608a3c506a8e558962a3385234d83d7a7

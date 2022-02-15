@@ -35,6 +35,13 @@ class Model {
         return $query->fetch();
     }
 
+    public function findInfoUpdate($tableName, $id)
+    {
+        $this->sqlQuery = "SELECT name, summary,image, content FROM " . $tableName . " WHERE id = " . $id;
+        $query = $this->conn->query($this->sqlQuery);
+        return $query->fetch();
+    }
+
     public function selectWhere($tableName, $rowName, $operator, $value, $valueType)
     {
         $this->sqlQuery = "SELECT * FROM " . $tableName . " WHERE " . $rowName . " " . $operator . " ";

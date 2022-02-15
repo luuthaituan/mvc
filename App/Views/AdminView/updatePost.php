@@ -7,7 +7,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>Update the Post</title>
-    <link href="../adminCSS/css/styles.css" rel="stylesheet" />
+    <link href="/adminCSS/css/styles.css" rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
 </head>
 <body class="bg-primary">
@@ -25,23 +25,33 @@
                                         <div class="col-md-6">
                                             <div class="form-floating mb-3 mb-md-0">
                                                 <input class="form-control" id="inputFirstName" type="text" placeholder="Title" name="name" />
-                                                <label for="inputFirstName">Title</label>
+                                                <a for="inputFirstName">
+                                                    Title: <?= $posts['name']; ?>
+                                                </a>
                                             </div>
                                         </div>
                                         <div class= "col-md-6">
                                             <div class="form-floating">
                                                 <input class="form-control" id="inputLastName" type="text" placeholder="Summary" name="summary" />
-                                                <label for="inputLastName">Summary</label>
+                                                <a for="inputLastName">
+                                                    Summary: <?= $posts['summary']; ?>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="form-floating mb-3">
                                         <input class="form-control" id="inputEmail" type="text" placeholder="Image Link" name="link"/>
-                                        <label for="inputEmail">Image link</label>
+                                        <a for="inputEmail">
+                                            Image Link: <?= $posts['image']; ?>
+                                        </a>
                                     </div>
                                     <div class="form-floating mb-3">
                                         <input class="form-control" id="inputEmail" type="text" placeholder="Content" name="content"/>
-                                        <label for="inputEmail">Content</label>
+                                        <a for="inputEmail">
+                                          Content:
+                                            <br>
+                                            <?= $posts['content']; ?>
+                                        </a>
                                     </div>
                                     <div class="mt-4 mb-0">
                                         <div class="d-grid"><button class="btn btn-primary btn-block" href="#" type="submit" name="submit">Update post</button></div>
@@ -64,6 +74,6 @@
     </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-<script src="../adminCSS/js/scripts.js"></script>
+<script src="/adminCSS/js/scripts.js"></script>
 </body>
 </html>
