@@ -27,9 +27,9 @@ $router->register('POST', '/dashboard/update/{id}', ['mainController', 'updateTh
 $router->register('GET', '/logout', ['logInController', 'logout']);
 
 //api
-$router->register('GET', '/api/dashboard', ['API\mainController', 'getAllPosts']);
-$router->register('GET', '/api/dashboard/{id}', ['API\mainController', 'showDetailedPost']);
-$router->register('DELETE', '/api/dashboard/delete/{id}', ['API\mainController', 'deletePost']);
+$router->register('GET', '/posts', ['API\mainController', 'getAllPosts']);
+$router->register('GET', '/posts/{id}', ['API\mainController', 'showDetailedPost']);
+$router->register('DELETE', '/posts/delete/{id}', ['API\mainController', 'deletePost']);
 
 
     try {
