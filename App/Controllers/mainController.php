@@ -31,7 +31,16 @@ class mainController extends Controller {
 
     public function showUpdatePost($id){
         $info = new mainModel();
-        $posts = $info->updateDetailPost($id);
+        $posts = $info->findDetailPost($id);
         return $this->loadView("../Views/AdminView/updatePost.php", ["posts" => $posts]);
+    }
+
+    public function updateThePost($id){
+        $main = new mainModel();
+        $main->updatePost($id);
+        echo '<script>
+        window.alert("Post updated");
+        window.location.href = "/dashboard";
+        </script>';
     }
 }

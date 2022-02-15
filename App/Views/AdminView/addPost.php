@@ -56,7 +56,8 @@ include ("navbar.php");
                             <div class="col-md-6">
                                 <div class="form-floating mb-3 mb-md-0">
                                     <a for="content">Post content</a>
-                                    <input class="form-control" id="inputFirstName" type="text" placeholder="Post content" name="content" required />
+<!--                                    <input class="form-control" id="inputFirstName" type="text" placeholder="Post content" name="content" required />-->
+                                    <textarea name="content" rows="9" cols="66"></textarea>
                                 </div>
                             </div>
                         </div>

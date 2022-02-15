@@ -24,7 +24,7 @@
                                     <div class="row mb-3">
                                         <div class="col-md-6">
                                             <div class="form-floating mb-3 mb-md-0">
-                                                <input class="form-control" id="inputFirstName" type="text" placeholder="Title" name="name" />
+                                                <input class="form-control" id="inputFirstName" type="text" placeholder="Title" name="name" required/>
                                                 <a for="inputFirstName">
                                                     Title: <?= $posts['name']; ?>
                                                 </a>
@@ -32,7 +32,7 @@
                                         </div>
                                         <div class= "col-md-6">
                                             <div class="form-floating">
-                                                <input class="form-control" id="inputLastName" type="text" placeholder="Summary" name="summary" />
+                                                <input class="form-control" id="inputLastName" type="text" placeholder="Summary" name="summary" required />
                                                 <a for="inputLastName">
                                                     Summary: <?= $posts['summary']; ?>
                                                 </a>
@@ -40,18 +40,14 @@
                                         </div>
                                     </div>
                                     <div class="form-floating mb-3">
-                                        <input class="form-control" id="inputEmail" type="text" placeholder="Image Link" name="link"/>
-                                        <a for="inputEmail">
-                                            Image Link: <?= $posts['image']; ?>
-                                        </a>
+                                        <a for="inputEmail"> Image Link: <?= $posts['image'] ?></a>
+                                        <input class="form-control" id="inputEmail" type="text" placeholder="Image Link" name="link" required/>
+<!--                                        <input type="text" name="link" required> --><?//= $posts['image']; ?>
                                     </div>
                                     <div class="form-floating mb-3">
-                                        <input class="form-control" id="inputEmail" type="text" placeholder="Content" name="content"/>
-                                        <a for="inputEmail">
-                                          Content:
-                                            <br>
-                                            <?= $posts['content']; ?>
-                                        </a>
+<!--                                        <input class="form-control" id="inputEmail" type="text" placeholder="Content" name="content" required/>-->
+                                        <a for="inputEmail">Content </a>
+                                        <textarea name="content" rows="9" cols="79"><?= $posts['content']; ?></textarea>
                                     </div>
                                     <div class="mt-4 mb-0">
                                         <div class="d-grid"><button class="btn btn-primary btn-block" href="#" type="submit" name="submit">Update post</button></div>

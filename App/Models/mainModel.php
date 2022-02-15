@@ -29,8 +29,23 @@ class mainModel extends Model {
 
 
 
-    public function updateDetailPost($id){
+    public function findDetailPost($id){
         $posts = $this->findInfoUpdate("posts", $id);
         return $posts;
+    }
+
+    public function updatePost($id){
+        $title = htmlspecialchars($_POST['name']);
+        $summary = htmlspecialchars($_POST['summary']);
+        $link = htmlspecialchars($_POST['link']);
+        $content = htmlspecialchars($_POST['content']);
+        $query = $this->conn->prepare("update posts set name = :title, summary = :summary, image = :image, content = :content where id = :id");
+        $query->execute(array(
+            ":title" => $title,
+            ":summary" => $summary,
+            ":image" => $link,
+            ":content" => $content,
+            ":id" => $id
+        ));
     }
 }

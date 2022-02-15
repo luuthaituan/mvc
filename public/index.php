@@ -23,6 +23,7 @@ $router->register('GET', '/addpost', ['mainController', 'showAddPost']);
 $router->register('POST', '/addpost', ['mainController', 'addNewPost']);
 $router->register('GET', '/dashboard/delete/{id}', ['mainController', 'deletePost']);
 $router->register('GET', '/dashboard/update/{id}', ['mainController', 'showUpdatePost']);
+$router->register('POST', '/dashboard/update/{id}', ['mainController', 'updateThePost']);
 $router->register('GET', '/logout', ['logInController', 'logout']);
 
     try {

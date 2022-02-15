@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f35c7b2d-f333-4c07-9a5a-1b34c8154618" name="Changes" comment="test778">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/d/8d2e88e489787070ca73d87b30f9184f22dda776" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/0/d017f901e831042d048b6ba854c97f3a23f75d68" beforeDir="false" />
+    <list default="true" id="f35c7b2d-f333-4c07-9a5a-1b34c8154618" name="Changes" comment="test77899">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/c/5ca7cba608a3c506a8e558962a3385234d83d7a7" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Controllers/mainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/mainController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Models/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Models/Model.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Models/mainModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Models/mainModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Views/AdminView/addPost.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/AdminView/addPost.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Views/AdminView/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/AdminView/dashboard.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Views/AdminView/updatePost.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/AdminView/updatePost.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +70,7 @@
       <workItem from="1644809289532" duration="22890000" />
       <workItem from="1644837759842" duration="3985000" />
       <workItem from="1644855147864" duration="7393000" />
-      <workItem from="1644885016793" duration="10942000" />
+      <workItem from="1644885016793" duration="17484000" />
     </task>
     <task id="LOCAL-00001" summary="test2">
       <created>1644825001668</created>
@@ -99,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644900790929</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test77899">
+      <created>1644910330343</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1644910330343</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +130,7 @@
     <MESSAGE value="test3" />
     <MESSAGE value="test4" />
     <MESSAGE value="test778" />
-    <option name="LAST_COMMIT_MESSAGE" value="test778" />
+    <MESSAGE value="test77899" />
+    <option name="LAST_COMMIT_MESSAGE" value="test77899" />
   </component>
 </project>
