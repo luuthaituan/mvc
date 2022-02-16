@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f35c7b2d-f333-4c07-9a5a-1b34c8154618" name="Changes" comment="hjhj" />
+    <list default="true" id="f35c7b2d-f333-4c07-9a5a-1b34c8154618" name="Changes" comment="hjhj">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/0/d0015b3dc13df78d3646e1e328ac437b29b8d430" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/0/d017f901e831042d048b6ba854c97f3a23f75d68" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,6 +68,7 @@
       <workItem from="1644885016793" duration="17484000" />
       <workItem from="1644937969466" duration="5152000" />
       <workItem from="1644983034963" duration="12738000" />
+      <workItem from="1645012433729" duration="1117000" />
     </task>
     <task id="LOCAL-00001" summary="test2">
       <created>1644825001668</created>
