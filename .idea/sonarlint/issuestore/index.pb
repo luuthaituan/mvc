@@ -1,10 +1,6 @@
 
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-?
-Core/Config.php,2\9\29c89c5d6070d3dd079f4463b763f75f732740af
-;
-Core/DB.php,0\1\01ef7181ec6206430d1ec4a008ee8b579870a1b1
 @
 public/.htaccess,c\9\c9fe70f275af093c7fb3ed73b451fadc91069bac
 P
@@ -65,23 +61,3 @@ I
 App/Models/loginModel.php,4\6\46dc5b4e2883f5d31e26b7c7f9157de1e23733ba
 Q
 !App/Views/AdminView/dashboard.php,4\8\48a1a1e144e0791e7f1921b957357600d6ed96fe
-K
-App/Views/HomePage/Home.php,e\e\ee4cc8e309460b733be2ea554f24d6e62ef06c4e
-N
-App/Controllers/Controller.php,d\0\d0015b3dc13df78d3646e1e328ac437b29b8d430
-D
-App/Models/Model.php,d\0\d017f901e831042d048b6ba854c97f3a23f75d68
-H
-App/Models/homeModel.php,8\d\8d2e88e489787070ca73d87b30f9184f22dda776
-R
-"App/Controllers/mainController.php,f\3\f3668999a99064acd87cae1fd4a7f3cb27c8bc12
-=
-composer.json,3\9\3957b91a0d8450cea0115cfd5af69eac90d75897
-R
-"App/Controllers/homeController.php,b\8\b874e7c58084852462db4d58908292af3fe3c833
-V
-&App/Controllers/API/mainController.php,4\4\4460d574c3c471e92187d01fe7da2bb9e6fccbfd
-H
-App/Models/mainModel.php,4\f\4f0610adc490949189e4739499a915862d83fd14
-@
-public/index.php,0\e\0e61f67641b441bb3ee38e903c594d99cafa14b4

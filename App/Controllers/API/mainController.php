@@ -24,4 +24,19 @@ class mainController extends Controller {
         header('Content-Type: application/json; charset=utf-8');
         echo json_encode(["status" => "Success"]);
     }
+
+    public function addNewPost(){
+        ini_set("display_errors", 1);
+        $main = new mainModel();
+        $result = $main->addPost();
+        $posts = array();
+        header('Content-Type: application/json; charset=utf-8');
+        header("Access-Control-Allow-Methods: POST");
+        if(!$result){
+            $posts['response'] = array("success" => "200", "msg" => "Added Successfully");
+        } else {
+            $posts['response'] = array("failed" => "405", "msg" => "Invalid Input");
+        }
+        echo json_encode($posts);
+    }
 }
