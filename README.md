@@ -1,2 +1,3 @@
 # mvc
-# api read, delete
+# api read, delete, add
+# frontend
