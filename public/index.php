@@ -27,10 +27,10 @@ $router->register('POST', '/dashboard/update/{id}', ['mainController', 'updateTh
 $router->register('GET', '/logout', ['logInController', 'logout']);
 
 //api
-$router->register('GET', '/news', ['API\mainController', 'getAllPosts']);
-$router->register('GET', '/news/{id}', ['API\mainController', 'showDetailedPost']);
-$router->register('DELETE', '/news/{id}', ['API\mainController', 'deletePost']);
-$router->register('POST', '/news', ['API\mainController', 'addNewPost']);
+$router->register('GET', '/api/dashboard', ['API\mainController', 'getAllPosts']);
+$router->register('GET', '/api/dashboard/{id}', ['API\mainController', 'showDetailedPost']);
+$router->register('DELETE', '/api/dashboard/delete/{id}', ['API\mainController', 'deletePost']);
+$router->register('POST', '/api/addpost', ['API\mainController', 'addNewPost']);
 
     try {
         $router->matchController();
