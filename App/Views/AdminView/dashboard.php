@@ -57,7 +57,7 @@ include ("navbar.php");
                                 <td><?= $value["name"]; ?></td>
                                 <td><?= $value["summary"]?></td>
                                 <td><?= $value["image"] ?></td>
-                                <td><?= $value["content"] ?></td>
+                                <td><?= html_entity_decode($value["content"])?></td>
                                 <td>
                                     <a href="/dashboard/update/<?= $value['id'] ?>" class="btn btn-info" role="button">Edit</a>
                                     <a href="/dashboard/delete/<?= $value['id'] ?>"><button class="btn btn-info" onclick="return confirm('Are you sure to delete this post?')" title="Delete">Delete</button></a>

@@ -15,7 +15,7 @@ class mainModel extends Model {
         $title = htmlspecialchars($_POST['name']);
         $summary = htmlspecialchars($_POST['summary']);
         $link = htmlspecialchars($_POST['link']);
-        $content = htmlspecialchars($_POST['content']);
+        $content = htmlspecialchars($_POST['post_content']);
         $insert = $this->conn->prepare("insert into posts set name = :title, summary = :summary, image = :link, content = :content");
         $insert->execute(array(
             ":title" => $title,
@@ -43,7 +43,7 @@ class mainModel extends Model {
         $title = htmlspecialchars($_POST['name']);
         $summary = htmlspecialchars($_POST['summary']);
         $link = htmlspecialchars($_POST['link']);
-        $content = htmlspecialchars($_POST['content']);
+        $content = htmlspecialchars($_POST['post_content']);
         $query = $this->conn->prepare("update posts set name = :title, summary = :summary, image = :image, content = :content where id = :id");
         $query->execute(array(
             ":title" => $title,

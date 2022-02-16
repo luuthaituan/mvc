@@ -33,7 +33,7 @@ include ("container.php");
                 <h1><?php echo $posts['name']; ?></h1>
                 <h3><?php echo $posts['summary']; ?></h3>
                 <p>
-                    <?php echo $posts['content']; ?>
+                    <?php echo html_entity_decode($posts['content']); ?>
                 </p>
             </div>
         </div>

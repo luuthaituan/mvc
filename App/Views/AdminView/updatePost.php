@@ -9,6 +9,7 @@
     <title>Update the Post</title>
     <link href="/adminCSS/css/styles.css" rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
+    <script src="/ckeditor/ckeditor.js"></script>
 </head>
 <body class="bg-primary">
 <div id="layoutAuthentication">
@@ -24,40 +25,50 @@
                                     <div class="row mb-3">
                                         <div class="col-md-6">
                                             <div class="form-floating mb-3 mb-md-0">
-                                                <input class="form-control" id="inputFirstName" type="text" placeholder="Title" name="name" required/>
-                                                <a for="inputFirstName">
-                                                    Title: <?= $posts['name']; ?>
+                                            <a for="inputFirstName">
+                                                    Title
                                                 </a>
+                                                <textarea name="name" rows="2" cols="37">
+                                                <?= $posts['name']; ?>
+                                                </textarea>
+
                                             </div>
                                         </div>
                                         <div class= "col-md-6">
                                             <div class="form-floating">
-                                                <input class="form-control" id="inputLastName" type="text" placeholder="Summary" name="summary" required />
-                                                <a for="inputLastName">
-                                                    Summary: <?= $posts['summary']; ?>
+                                            <a for="inputLastName">
+                                                    Summary
                                                 </a>
+                                                <textarea name="summary" rows="2" cols="37">
+                                                <?= $posts['summary']; ?>
+                                                </textarea>
+
                                             </div>
                                         </div>
                                     </div>
                                     <div class="form-floating mb-3">
-                                        <a for="inputEmail"> Image Link: <?= $posts['image'] ?></a>
-                                        <input class="form-control" id="inputEmail" type="text" placeholder="Image Link" name="link" required/>
-<!--                                        <input type="text" name="link" required> --><?//= $posts['image']; ?>
+                                        <a for="inputEmail"> Image Link</a>
+                                        <textarea name="link" rows="2" cols="80">
+                                                <?= $posts['image']; ?>
+                                                </textarea>
                                     </div>
                                     <div class="form-floating mb-3">
-<!--                                        <input class="form-control" id="inputEmail" type="text" placeholder="Content" name="content" required/>-->
                                         <a for="inputEmail">Content </a>
-                                        <textarea name="content" rows="9" cols="79"><?= $posts['content']; ?></textarea>
+                                        <textarea name="post_content" id="post_content" rows="9" cols="79"><?= $posts['content']; ?></textarea>
                                     </div>
                                     <div class="mt-4 mb-0">
                                         <div class="d-grid"><button class="btn btn-primary btn-block" href="#" type="submit" name="submit">Update post</button></div>
                                     </div>
                                 </form>
+                                <script>
+                                    CKEDITOR.replace( 'post_content' );
+                                </script>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </main>
     </div>
     <div id="layoutAuthentication_footer">

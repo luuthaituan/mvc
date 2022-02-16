@@ -10,6 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
     <link href="../adminCSS/css/styles.css" rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
+    <script src="../ckeditor/ckeditor.js"></script>
 </head>
 <body class="sb-nav-fixed">
 <?php
@@ -56,8 +57,7 @@ include ("navbar.php");
                             <div class="col-md-6">
                                 <div class="form-floating mb-3 mb-md-0">
                                     <a for="content">Post content</a>
-<!--                                    <input class="form-control" id="inputFirstName" type="text" placeholder="Post content" name="content" required />-->
-                                    <textarea name="content" rows="9" cols="66"></textarea>
+                                    <textarea name="post_content" id="post_content" rows="9" cols="66"></textarea>
                                 </div>
                             </div>
                         </div>
@@ -67,6 +67,9 @@ include ("navbar.php");
                             </div>
                         </div>
                     </form>
+                    <script>
+                        CKEDITOR.replace( 'post_content' );
+                    </script>
                 </div>
         </main>
         <?php
