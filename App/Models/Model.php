@@ -1,6 +1,7 @@
 <?php
 namespace App\Models;
 use Core\DB;
+use App\HTTP\HttpResponse;
 class Model {
     public $connectFile;
     public $dataSet = NULL;
@@ -18,6 +19,42 @@ class Model {
     {
         $this->sqlQuery = "SELECT * FROM $tableName";
         $query = $this->conn->query($this->sqlQuery);
+//        if($_SERVER['REQUEST_METHOD'] == 'GET'){
+//            $rowCount = $query->rowCount();
+//            $postsArray = array();
+//            if ($rowCount === 0) {
+//                // set up response for unsuccessful return
+//                $response = new HttpResponse();
+//                $response->setHttpStatusCode(404);
+//                $response->setSuccess(false);
+//                $response->addMessage("posts not found");
+//                $response->send();
+//                exit;
+//            }
+//            while ($row = $query->fetch()) {
+//
+//                // create category and store in array for return in json data
+//                $posts = array();
+//                $posts['id'] = $row['id'];
+//                $posts['name'] = $row['name'];
+//                $posts['summary'] = $row['summary'];
+//                $posts['image'] = $row['image'];
+//                $posts['content'] = $row['content'];
+//                $postsArray[]= $posts;
+//            }
+//            $returnData = array();
+//            $returnData['rows_returned'] = $rowCount;
+//            $returnData['posts'] = $postsArray;
+//
+//            // set up response for successful return
+//            $response = new HttpResponse();
+//            $response->setHttpStatusCode(200);
+//            $response->setSuccess(true);
+//            $response->toCache(true);
+//            $response->setData($returnData);
+//            $response->send();
+//            exit();
+//        }
         return $query->fetchAll();
     }
 

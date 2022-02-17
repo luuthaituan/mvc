@@ -38,21 +38,11 @@ I
 C
 vendor/autoload.php,4\c\4ceef96aee837e6ae16da075ddeaba8aafebd371
 N
-App/Views/HomePage/contact.php,e\d\ed872aef2c74f8d49da0a5acdae7d5c870a60d56
-P
- App/Views/HomePage/container.php,5\5\552320133a3ef6578ffdc91fe57970938c3f4fa4
-M
-App/Views/HomePage/footer.php,7\a\7ac6eceb87f3dc5da9d84df34258618e05075b9d
-N
 App/Views/AdminView/navbar.php,b\2\b202dab0d5646a4fc9a74278c3eeaa59423ec522
 =
 composer.json,3\9\3957b91a0d8450cea0115cfd5af69eac90d75897
 R
 "App/Controllers/homeController.php,b\8\b874e7c58084852462db4d58908292af3fe3c833
-K
-App/Views/HomePage/Home.php,e\e\ee4cc8e309460b733be2ea554f24d6e62ef06c4e
-Q
-!App/Views/AdminView/dashboard.php,4\8\48a1a1e144e0791e7f1921b957357600d6ed96fe
 O
 App/Views/AdminView/addPost.php,3\1\310db572f387bea6db8f3b33bca9f44129a306fe
 Q
@@ -65,23 +55,35 @@ R
 Core/Router.php,f\8\f8c9fb55f2dfd4b050b7fd18ee367e1e0b24cee7
 ;
 Core/DB.php,0\1\01ef7181ec6206430d1ec4a008ee8b579870a1b1
+I
+App/Models/loginModel.php,4\6\46dc5b4e2883f5d31e26b7c7f9157de1e23733ba
+H
+App/Models/homeModel.php,8\d\8d2e88e489787070ca73d87b30f9184f22dda776
 ?
 Core/Config.php,2\9\29c89c5d6070d3dd079f4463b763f75f732740af
 @
 public/index.php,0\e\0e61f67641b441bb3ee38e903c594d99cafa14b4
 N
 App/Controllers/Controller.php,d\0\d0015b3dc13df78d3646e1e328ac437b29b8d430
-V
-&App/Controllers/API/mainController.php,4\4\4460d574c3c471e92187d01fe7da2bb9e6fccbfd
-D
-App/Models/Model.php,d\0\d017f901e831042d048b6ba854c97f3a23f75d68
-I
-App/Models/loginModel.php,4\6\46dc5b4e2883f5d31e26b7c7f9157de1e23733ba
-H
-App/Models/homeModel.php,8\d\8d2e88e489787070ca73d87b30f9184f22dda776
-H
-App/Models/mainModel.php,4\f\4f0610adc490949189e4739499a915862d83fd14
-R
-"App/Controllers/mainController.php,f\3\f3668999a99064acd87cae1fd4a7f3cb27c8bc12
 S
 #App/Controllers/logInController.php,5\c\5ca7cba608a3c506a8e558962a3385234d83d7a7
+H
+App/Models/mainModel.php,4\f\4f0610adc490949189e4739499a915862d83fd14
+V
+&App/Controllers/API/mainController.php,4\4\4460d574c3c471e92187d01fe7da2bb9e6fccbfd
+Q
+!App/Views/AdminView/dashboard.php,4\8\48a1a1e144e0791e7f1921b957357600d6ed96fe
+R
+"App/Controllers/mainController.php,f\3\f3668999a99064acd87cae1fd4a7f3cb27c8bc12
+N
+App/Views/HomePage/contact.php,e\d\ed872aef2c74f8d49da0a5acdae7d5c870a60d56
+P
+ App/Views/HomePage/container.php,5\5\552320133a3ef6578ffdc91fe57970938c3f4fa4
+M
+App/Views/HomePage/footer.php,7\a\7ac6eceb87f3dc5da9d84df34258618e05075b9d
+K
+App/Views/HomePage/Home.php,e\e\ee4cc8e309460b733be2ea554f24d6e62ef06c4e
+I
+App/HTTP/HttpResponse.php,c\f\cf4b9a4cb601f7490daf9cf7fd27a7d52ff2d4a7
+D
+App/Models/Model.php,d\0\d017f901e831042d048b6ba854c97f3a23f75d68

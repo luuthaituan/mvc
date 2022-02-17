@@ -1,2 +1,6 @@
 
 kphp:S101"RRename class "mainController" to match the regular expression ^[A-Z][a-zA-Z0-9]*$.(‰¶üÿÿÿÿ
+	php:S3699	"rRemove this use of the output from "mainController::loadView"; "mainController::loadView" doesn't return anything.(üÁº´8ì×¥«ğ/
+“	php:S3699"rRemove this use of the output from "mainController::loadView"; "mainController::loadView" doesn't return anything.(ë£ÄÙşÿÿÿÿ8ì×¥«ğ/
+“	php:S3699"rRemove this use of the output from "mainController::loadView"; "mainController::loadView" doesn't return anything.(ë£ÄÙşÿÿÿÿ8ñ×¥«ğ/
+	php:S3699#"rRemove this use of the output from "mainController::loadView"; "mainController::loadView" doesn't return anything.(áƒc8ñ×¥«ğ/

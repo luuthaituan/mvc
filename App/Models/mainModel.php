@@ -1,5 +1,7 @@
 <?php
 namespace App\Models;
+use App\HTTP\HttpResponse;
+
 class mainModel extends Model {
     public function getAll() {
         $posts = $this->selectAll("posts");
