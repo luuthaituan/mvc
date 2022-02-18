@@ -31,25 +31,25 @@ include ("container.php");
                     <div class="fh5co_heading fh5co_heading_border_bottom py-2 mb-4">News</div>
                 </div>
                 <?php foreach ($posts as $value) { ?>
-                <div class="row pb-4">
-                    <div class="col-md-5">
-                        <div class="fh5co_hover_news_img">
-                            <div class="fh5co_news_img"><img src="data:image/jpeg;base64,<?= $image ?>">
-                            <?php
-                            $url = $value['image'];
-                            $image = base64_encode(file_get_contents($url));
-                            ?>
+                    <div class="row pb-4">
+                        <div class="col-md-5">
+                            <div class="fh5co_hover_news_img">
+                                <div class="fh5co_news_img"><img src="data:image/jpeg;base64,<?= $image ?>">
+                                    <?php
+                                    $url = $value['image'];
+                                    $image = base64_encode(file_get_contents($url));
+                                    ?>
+                                </div>
+                                <div></div>
                             </div>
-                            <div></div>
+                        </div>
+                        <div class="col-md-7 animate-box">
+                            <a href="/<?=$value['id']?>" class="fh5co_magna py-2"><?= $value['name']; ?> </a>
+                            <div class="fh5co_consectetur">
+                                <?= $value['summary']; ?>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-7 animate-box">
-                        <a href="/<?=$value['id']?>" class="fh5co_magna py-2"><?= $value['name']; ?> </a>
-                        <div class="fh5co_consectetur">
-                            <?= $value['summary']; ?>
-                        </div>
-                    </div>
-                </div>
                 <?php } ?>
             </div>
         </div>
