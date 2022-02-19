@@ -22,35 +22,56 @@
 <?php
 include ("container.php");
 ?>
-
-<div class="container-fluid pb-4 pt-4 paddding">
-    <div class="container paddding">
-        <div class="row mx-0">
-            <div class="col-md-8 animate-box" data-animate-effect="fadeInLeft">
-                <div>
-                    <div class="fh5co_heading fh5co_heading_border_bottom py-2 mb-4">News</div>
-                </div>
-                <?php foreach ($posts as $value) { ?>
-                    <div class="row pb-4">
-                        <div class="col-md-5">
-                            <div class="fh5co_hover_news_img">
-                                <div class="fh5co_news_img"><img src="data:image/jpeg;base64,<?= $image ?>">
-                                    <?php
-                                    $url = $value['image'];
-                                    $image = base64_encode(file_get_contents($url));
-                                    ?>
+<script>
+    var source = "http://localhost:8080/api/dashboard";
+    function run(){
+        getCourses(function(courses){
+            renderCourse(courses);
+        });
+    }
+    run();
+    function getCourses(callback){
+        fetch(source).then(function(response){
+            return response.json();
+        }).then(callback)
+    }
+    function renderCourse(courses){
+        var listCourse = document.querySelector('#news');
+        var htmls = courses.map(function(course){
+            return `
+                                <div class="row pb-4" >
+                        <div class="col-md-5" >
+                            <div class="fh5co_hover_news_img" >
+                                <div class="fh5co_news_img" ><img src="${course.image}">
                                 </div>
                                 <div></div>
                             </div>
                         </div>
-                        <div class="col-md-7 animate-box">
-                            <a href="/<?=$value['id']?>" class="fh5co_magna py-2"><?= $value['name']; ?> </a>
-                            <div class="fh5co_consectetur">
-                                <?= $value['summary']; ?>
+                        <div class="col-md-7 animate-box" id="demo">
+                            <a href="/${course.id}" class="fh5co_magna py-2"> ${course.name}</a>
+                            <div class="fh5co_consectetur" >
+${course.summary}
                             </div>
                         </div>
                     </div>
-                <?php } ?>
+            `
+        })
+        console.log(htmls);
+        listCourse.innerHTML = htmls.join('')
+    }
+</script>
+
+<div class="container-fluid pb-4 pt-4 paddding"  >
+    <div class="container paddding">
+        <div class="row mx-0" >
+            <div class="col-md-8 animate-box" data-animate-effect="fadeInLeft">
+                <div>
+                    <div class="fh5co_heading fh5co_heading_border_bottom py-2 mb-4">News</div>
+                </div>
+                <div id="news">
+
+                </div>
+            </div>
             </div>
         </div>
         <div class="row mx-0 animate-box" data-animate-effect="fadeInUp">
