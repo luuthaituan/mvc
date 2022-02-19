@@ -68,7 +68,7 @@ ${course.summary}
                 <div>
                     <div class="fh5co_heading fh5co_heading_border_bottom py-2 mb-4">News</div>
                 </div>
-                <div id="demo" >
+                <div id="demo">
 
                 </div>
             </div>

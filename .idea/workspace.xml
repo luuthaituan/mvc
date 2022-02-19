@@ -2,30 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f35c7b2d-f333-4c07-9a5a-1b34c8154618" name="Changes" comment="hjhj">
-      <change afterPath="$PROJECT_DIR$/App/Views/HomePage/Home3.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/9/0994948c9c87f3472bddbc4766f20e7afe58eea1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0e61f67641b441bb3ee38e903c594d99cafa14b4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/6/26b8a68f517bd7db29bd238da103baf43e40f4c9" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2a0669edae232ba272f6a294869d4d730c13ba96" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/4460d574c3c471e92187d01fe7da2bb9e6fccbfd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48a1a1e144e0791e7f1921b957357600d6ed96fe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/f/4f0610adc490949189e4739499a915862d83fd14" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/0/505624e6697defe66669ebad6cc6664a367deb18" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/c/5ca7cba608a3c506a8e558962a3385234d83d7a7" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/8518f4ea96a37dd7f0d3301c228edf3c72d5f2a2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/8/b874e7c58084852462db4d58908292af3fe3c833" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c0d13c371f8ecfe6e1c071a134174fbab0c60c31" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/e/ce7006a5c545ec284e945b5aaf67cbb741de3765" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf4b9a4cb601f7490daf9cf7fd27a7d52ff2d4a7" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/b/db22719bd993daf415d373d75b346cd5b27f8265" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e4d7c4cd4a900e47f6d3fc191ade9b6a9f88d8a3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/ee4cc8e309460b733be2ea554f24d6e62ef06c4e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f3668999a99064acd87cae1fd4a7f3cb27c8bc12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/8/f8c9fb55f2dfd4b050b7fd18ee367e1e0b24cee7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fcd86d45b8a3d928bfc0865ab2c9b26569bb6fbc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Views/HomePage/Home.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/HomePage/Home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/homeCSS/css/media_query.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/homeCSS/css/media_query.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Controllers/homeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/homeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Views/HomePage/Home3.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/HomePage/Home3.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/homeCSS/sass/style_1.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/homeCSS/sass/style_1.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,6 +85,7 @@
       <workItem from="1645118310480" duration="28000" />
       <workItem from="1645192784082" duration="2708000" />
       <workItem from="1645197787945" duration="7328000" />
+      <workItem from="1645242179270" duration="1091000" />
     </task>
     <task id="LOCAL-00001" summary="test2">
       <created>1644825001668</created>

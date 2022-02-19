@@ -69,23 +69,23 @@ S
 #public/homeCSS/css/owl.carousel.css,2\6\26b8a68f517bd7db29bd238da103baf43e40f4c9
 R
 "public/homeCSS/css/media_query.css,0\9\0994948c9c87f3472bddbc4766f20e7afe58eea1
+Q
+!App/Views/HomePage/singleNews.php,5\0\505624e6697defe66669ebad6cc6664a367deb18
+N
+public/homeCSS/css/style_1.css,c\e\ce7006a5c545ec284e945b5aaf67cbb741de3765
 P
  public/homeCSS/css/bootstrap.css,c\0\c0d13c371f8ecfe6e1c071a134174fbab0c60c31
 N
 public/homeCSS/css/animate.css,8\5\8518f4ea96a37dd7f0d3301c228edf3c72d5f2a2
-N
-public/homeCSS/css/style_1.css,c\e\ce7006a5c545ec284e945b5aaf67cbb741de3765
-R
-"public/homeCSS/css/style_1.css.map,d\b\db22719bd993daf415d373d75b346cd5b27f8265
-Q
-!App/Views/HomePage/singleNews.php,5\0\505624e6697defe66669ebad6cc6664a367deb18
 S
 #App/Controllers/logInController.php,5\c\5ca7cba608a3c506a8e558962a3385234d83d7a7
+R
+"public/homeCSS/css/style_1.css.map,d\b\db22719bd993daf415d373d75b346cd5b27f8265
+K
+App/Views/HomePage/Home.php,e\e\ee4cc8e309460b733be2ea554f24d6e62ef06c4e
 L
 App/Views/HomePage/Home3.php,e\4\e4d7c4cd4a900e47f6d3fc191ade9b6a9f88d8a3
 P
  public/homeCSS/sass/style_1.scss,2\a\2a0669edae232ba272f6a294869d4d730c13ba96
-K
-App/Views/HomePage/Home.php,e\e\ee4cc8e309460b733be2ea554f24d6e62ef06c4e
 R
 "App/Controllers/homeController.php,b\8\b874e7c58084852462db4d58908292af3fe3c833

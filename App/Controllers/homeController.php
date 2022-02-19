@@ -11,7 +11,7 @@ class homeController extends Controller {
     public function index(){
         $getList = new homeModel();
         $posts = $getList->getAll();
-        return $this->loadView("../Views/HomePage/Home.php", ["posts" => $posts]);
+        return $this->loadView("../Views/HomePage/Home3.php", ["posts" => $posts]);
     }
 
     public function contactUs(){
