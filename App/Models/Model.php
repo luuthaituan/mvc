@@ -67,7 +67,7 @@ class Model {
 
     public function findPost($tableName, $id)
     {
-        $this->sqlQuery = "SELECT name, summary, content FROM " . $tableName . " WHERE id = " . $id;
+        $this->sqlQuery = "SELECT id, name, summary, content FROM " . $tableName . " WHERE id = " . $id;
         $query = $this->conn->query($this->sqlQuery);
         return $query->fetch();
     }

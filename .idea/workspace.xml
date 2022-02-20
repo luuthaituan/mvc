@@ -2,21 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f35c7b2d-f333-4c07-9a5a-1b34c8154618" name="Changes" comment="hjhj">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2a0669edae232ba272f6a294869d4d730c13ba96" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0e61f67641b441bb3ee38e903c594d99cafa14b4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/9/3957b91a0d8450cea0115cfd5af69eac90d75897" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/4460d574c3c471e92187d01fe7da2bb9e6fccbfd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/f/4f0610adc490949189e4739499a915862d83fd14" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/0/505624e6697defe66669ebad6cc6664a367deb18" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/c/5ca7cba608a3c506a8e558962a3385234d83d7a7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/8518f4ea96a37dd7f0d3301c228edf3c72d5f2a2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/d/8d2e88e489787070ca73d87b30f9184f22dda776" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/8/b874e7c58084852462db4d58908292af3fe3c833" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c0d13c371f8ecfe6e1c071a134174fbab0c60c31" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/e/ce7006a5c545ec284e945b5aaf67cbb741de3765" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/b/db22719bd993daf415d373d75b346cd5b27f8265" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/0/d017f901e831042d048b6ba854c97f3a23f75d68" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e4d7c4cd4a900e47f6d3fc191ade9b6a9f88d8a3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/ee4cc8e309460b733be2ea554f24d6e62ef06c4e" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Controllers/homeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/homeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Views/HomePage/Home3.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Views/HomePage/Home3.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/homeCSS/sass/style_1.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/homeCSS/sass/style_1.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Controllers/API/mainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controllers/API/mainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Models/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Models/Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +55,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../blog" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -86,6 +88,9 @@
       <workItem from="1645192784082" duration="2708000" />
       <workItem from="1645197787945" duration="7328000" />
       <workItem from="1645242179270" duration="1091000" />
+      <workItem from="1645279385436" duration="8639000" />
+      <workItem from="1645289371519" duration="435000" />
+      <workItem from="1645338179112" duration="899000" />
     </task>
     <task id="LOCAL-00001" summary="test2">
       <created>1644825001668</created>

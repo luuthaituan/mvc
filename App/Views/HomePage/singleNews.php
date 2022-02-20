@@ -30,10 +30,10 @@ include ("container.php");
     <div class="container paddding">
         <div class="row mx-0">
             <div class="col-md-8 animate-box" data-animate-effect="fadeInLeft">
-                <h1><?php echo $posts['name']; ?></h1>
-                <h3><?php echo $posts['summary']; ?></h3>
-                <p>
-                    <?php echo html_entity_decode($posts['content']); ?>
+                <h1 class="tieude"></h1>
+                <h3 class="tomtat"></h3>
+                <p class="noidung">
+
                 </p>
             </div>
         </div>
@@ -58,5 +58,33 @@ include ("footer.php");
 <!-- Main -->
 <script src="../homeCSS/js/main.js"></script>
 <script>if (!navigator.userAgent.match(/Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i)){$(window).stellar();}</script>
+<script src="../node_modules/he/he.js"></script>
 </body>
+<script>
+    function decodeEntities(encodedString) {
+
+var textArea = document.createElement('p');
+
+textArea.innerHTML = encodedString;
+
+return textArea.value;
+
+}
+    var url = window.location.href;
+    var arrayId = url.split('/');
+    var id = arrayId[3];
+    console.log(id);
+    var apiSingle = 'http://localhost:8080/api/dashboard' + '/' + id;
+    $.ajax({
+       type: "GET", 
+       url: apiSingle, 
+       data: [],
+       success: function(response){
+           $('.tieude').text(response['name']),
+           $('.tomtat').text(response['summary']),
+           $('.noidung').text(response['content'])
+       }
+    })
+
+</script>
 </html>

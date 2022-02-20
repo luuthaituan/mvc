@@ -28,7 +28,7 @@ $router->register('GET', '/logout', ['logInController', 'logout']);
 
 //api
 $router->register('GET', '/api/dashboard', ['API\mainController', 'getAllPosts']);
-$router->register('GET', '/api/dashboard/{id}', ['API\mainController', 'showDetailedPost']);
+$router->register('GET', '/api/dashboard/{id}', ['API\mainController', 'showSingle']);
 $router->register('DELETE', '/api/dashboard/delete/{id}', ['API\mainController', 'deletePost']);
 $router->register('POST', '/api/addpost', ['API\mainController', 'addNewPost']);
 

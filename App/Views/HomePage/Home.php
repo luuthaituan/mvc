@@ -56,7 +56,7 @@ ${course.summary}
                     </div>
             `
         })
-        console.log(htmls);
+        // console.log(htmls);
         listCourse.innerHTML = htmls.join('')
     }
 </script>

@@ -1,12 +1,14 @@
 <?php
 namespace App\Controllers\API;
 use App\Controllers\Controller;
+use App\Models\homeModel;
 use App\Models\mainModel;
 
 class mainController extends Controller {
     public function getAllPosts() {
         $getList = new mainModel();
         $posts= $getList->getAll();
+        header("Access-Control-Allow-Origin: *");
         header('Content-Type: application/json; charset=utf-8');
         echo json_encode($posts);
     }
@@ -17,6 +19,14 @@ class mainController extends Controller {
         header('Content-Type: application/json; charset=utf-8');
         echo json_encode($posts);
     }
+
+    public function showSingle($id) {
+        $getList = new homeModel();
+        $posts = $getList->getByID($id);
+        header('Content-Type: application/json; charset=utf-8');
+        echo json_encode($posts);
+    }
+
 
     public function deletePost($id){
         $main = new mainModel();
