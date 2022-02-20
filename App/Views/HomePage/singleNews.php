@@ -33,7 +33,7 @@ include ("container.php");
                 <h1 class="tieude"></h1>
                 <h3 class="tomtat"></h3>
                 <p class="noidung">
-                    
+                    <?php echo html_entity_decode($posts['content']); ?>
                 </p>
             </div>
         </div>
@@ -73,8 +73,8 @@ include ("footer.php");
        data: [],
        success: function(response){
            $('.tieude').text(response['name']),
-           $('.tomtat').text(response['summary']),
-           $('.noidung').text(response['content'])  
+           $('.tomtat').text(response['summary'])
+            
        }
     })
 
