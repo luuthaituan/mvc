@@ -33,7 +33,7 @@ include ("container.php");
                 <h1 class="tieude"></h1>
                 <h3 class="tomtat"></h3>
                 <p class="noidung">
-
+                    
                 </p>
             </div>
         </div>
@@ -61,15 +61,7 @@ include ("footer.php");
 <script src="../node_modules/he/he.js"></script>
 </body>
 <script>
-    function decodeEntities(encodedString) {
 
-var textArea = document.createElement('p');
-
-textArea.innerHTML = encodedString;
-
-return textArea.value;
-
-}
     var url = window.location.href;
     var arrayId = url.split('/');
     var id = arrayId[3];
@@ -82,7 +74,7 @@ return textArea.value;
        success: function(response){
            $('.tieude').text(response['name']),
            $('.tomtat').text(response['summary']),
-           $('.noidung').text(response['content'])
+           $('.noidung').text(response['content'])  
        }
     })
 
