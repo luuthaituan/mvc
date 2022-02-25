@@ -74,7 +74,6 @@ include ("footer.php");
        success: function(response){
            $('.tieude').text(response['name']),
            $('.tomtat').text(response['summary'])
-            
        }
     })
 
